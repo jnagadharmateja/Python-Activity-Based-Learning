@@ -1,7 +1,8 @@
 # Python Activity-Based Learning
 
 **Name:** J NAGA DHARMA TEJA  
-**Roll number:** 26000505
+**Roll number:** 26000505  
+**Section:** 2
 
 This repository contains ten selected case studies from the activity sheet. Each folder has a problem statement, objectives, assumptions, algorithm, flowchart, pseudocode, Python source, test cases, output images, and conclusion. The PDF does not specify many numerical rules, so the assumptions in each folder state the rules used here.
 
