@@ -12,5 +12,19 @@
     "expected": [
       "Invalid dimension"
     ]
+  },
+  {
+    "name": "Minimum dimension",
+    "input": "1\n",
+    "expected": [
+      "Dimension (1-9): 1\n"
+    ]
+  },
+  {
+    "name": "Dimension too large",
+    "input": "10\n",
+    "expected": [
+      "Invalid dimension"
+    ]
   }
 ]

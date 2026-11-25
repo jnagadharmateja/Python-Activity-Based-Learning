@@ -9,7 +9,7 @@ else:
         row = []
         for j in range(subjects):
             mark = float(input("S" + str(i + 1) + " subject " + str(j + 1) + ": "))
-            if mark < 0 or mark > 100:
+            if not 0 <= mark <= 100:
                 valid = False
             row.append(mark)
         matrix.append(row)
@@ -22,7 +22,8 @@ else:
             for mark in matrix[i]:
                 total += mark
             totals.append(total)
-            print("S" + str(i + 1), "total:", format(total, ".2f"), "average:", format(total / subjects, ".2f"))
+            print("S" + str(i + 1), "total:", format(total, ".2f"),
+                  "average:", format(total / subjects, ".2f"))
         highest = max(totals)
         for i in range(students):
             if totals[i] == highest:

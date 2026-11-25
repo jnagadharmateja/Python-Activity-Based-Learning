@@ -1,0 +1,2 @@
+Number of registrations: Student ID: Course code: Invalid registration: ('', 'PY')
+No identifiable affected student

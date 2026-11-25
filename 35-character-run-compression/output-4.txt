@@ -1,0 +1,4 @@
+Text: Encoded: A2\12\\2
+Original length: 6
+Encoded length: 8
+Compression is not beneficial

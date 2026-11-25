@@ -13,5 +13,12 @@
     "expected": [
       "Correct: 0 Incorrect: 2 Unanswered: 0 Score: -2"
     ]
+  },
+  {
+    "name": "Unanswered and incorrect",
+    "input": "ABC\n1\nSita\nA-B\n",
+    "expected": [
+      "Sita Correct: 1 Incorrect: 1 Unanswered: 1 Score: 3"
+    ]
   }
 ]

@@ -15,5 +15,19 @@
     "expected": [
       "Invalid mark: use 0 to 100"
     ]
+  },
+  {
+    "name": "Non-finite mark",
+    "input": "1\n1\nnan\n",
+    "expected": [
+      "Invalid mark: use 0 to 100"
+    ]
+  },
+  {
+    "name": "Average at threshold",
+    "input": "1\n1\n40\n",
+    "expected": [
+      "Subject 1 average: 40.00 OK"
+    ]
   }
 ]

@@ -16,5 +16,21 @@
       "Rejected: 2",
       "Balance: Rs 1000.00"
     ]
+  },
+  {
+    "name": "Non-finite and extra decimal amounts",
+    "input": "3\nD\nnan\nD\ninf\nD\n1.234\n",
+    "expected": [
+      "Rejected: 3",
+      "Balance: Rs 1000.00"
+    ]
+  },
+  {
+    "name": "Withdraw available balance",
+    "input": "1\nW\n1000\n",
+    "expected": [
+      "Withdrawal accepted",
+      "Balance: Rs 0.00"
+    ]
   }
 ]

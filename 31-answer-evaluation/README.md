@@ -1,8 +1,5 @@
 # Case 31: String-Based Examination Answer Evaluation
 
-**Student:** J NAGA DHARMA TEJA  
-**Roll number:** 26000505
-
 ## Problem statement
 
 Compare answer strings with an answer key, count correct, incorrect and unanswered responses, apply negative marking and show results.
@@ -12,12 +9,12 @@ Compare answer strings with an answer key, count correct, incorrect and unanswer
 - Evaluate multiple students against one key.
 - Calculate the total using negative marks.
 
-## Assumptions and rules
+## Assumptions
 
 - The key uses uppercase A, B, C or D only; responses use those letters or - for unanswered.
 - Each correct answer gives 4 marks, each incorrect answer deducts 1, and unanswered answers give 0. Negative totals are allowed.
 - A response must be the same length as the key. Input is converted to uppercase.
-- Numeric prompts expect numeric input in the requested format; non-numeric input is outside these examples.
+- Numeric input must be entered in the requested format.
 
 ## Algorithm
 
@@ -28,9 +25,7 @@ Compare answer strings with an answer key, count correct, incorrect and unanswer
 
 ## Flowchart
 
-![Flowchart for String-Based Examination Answer Evaluation](flowchart.png)
-
-The chart is a high-level view; validation and repeated processing are detailed in the algorithm and pseudocode.
+![Flowchart](flowchart.png)
 
 ## Pseudocode
 
@@ -47,40 +42,59 @@ FOR each student
 
 ## Python source code
 
-See [solution.py](solution.py). Run from this folder with `python solution.py` and enter the requested values.
+[solution.py](solution.py)
 
-## Test cases and output screenshots
+## Test cases
 
-### Test 1: Mixed answers and invalid record
+1. **Mixed answers and invalid record**
 
-Input, one value per line:
-```text
+   Input (one value per line):
+
+   ```text
 ABCD
 2
 Ravi
 AB-D
 Anu
 AXCD
-```
-Expected checks: `Ravi Correct: 3 Incorrect: 0 Unanswered: 1 Score: 12`; `Invalid response for Anu`.
+   ```
 
-Actual output: [text](output-1.txt) | [output image](output-1.png).
+   Expected: `Ravi Correct: 3 Incorrect: 0 Unanswered: 1 Score: 12`; `Invalid response for Anu`.
 
-### Test 2: Negative marks
+2. **Negative marks**
 
-Input, one value per line:
-```text
+   Input (one value per line):
+
+   ```text
 AA
 1
 Kiran
 BB
-```
-Expected checks: `Correct: 0 Incorrect: 2 Unanswered: 0 Score: -2`.
+   ```
 
-Actual output: [text](output-2.txt) | [output image](output-2.png).
+   Expected: `Correct: 0 Incorrect: 2 Unanswered: 0 Score: -2`.
 
-The output images are rendered from the actual captured program runs; inputs are shown separately because piped input is not echoed by the program.
+3. **Unanswered and incorrect**
+
+   Input (one value per line):
+
+   ```text
+ABC
+1
+Sita
+A-B
+   ```
+
+   Expected: `Sita Correct: 1 Incorrect: 1 Unanswered: 1 Score: 3`.
+
+## Output screenshots
+
+- Test 1: [output image](output-1.png) | [output text](output-1.txt)
+- Test 2: [output image](output-2.png) | [output text](output-2.txt)
+- Test 3: [output image](output-3.png) | [output text](output-3.txt)
+
+The images are made from actual captured program output; input is shown separately.
 
 ## Conclusion
 
-This program demonstrates string-based examination answer evaluation using the stated rules. The tests cover the main scenario and at least one additional or boundary condition. Different institutional rules can be substituted if required.
+The program solves this case using the rules and conditions stated above.

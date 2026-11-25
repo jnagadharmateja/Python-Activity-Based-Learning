@@ -1,8 +1,5 @@
 # Case 42: Student Marks Matrix Analysis
 
-**Student:** J NAGA DHARMA TEJA  
-**Roll number:** 26000505
-
 ## Problem statement
 
 Analyse a matrix of student marks across subjects, calculate row-wise and column-wise statistics, identify top performers and detect subjects with low average performance.
@@ -12,12 +9,12 @@ Analyse a matrix of student marks across subjects, calculate row-wise and column
 - Calculate each student total and average.
 - Calculate subject averages and identify all tied top performers and weak subjects.
 
-## Assumptions and rules
+## Assumptions
 
-- Enter at least one student and one subject; marks are numeric from 0 to 100.
+- Enter at least one student and one subject; marks are finite numbers from 0 to 100.
 - Student labels are S1, S2, ... and subject labels are Subject 1, Subject 2, ....
 - A subject is low performing when its class average is below 40. Top performers are students with the highest total, including ties.
-- Numeric prompts expect numeric input in the requested format; non-numeric input is outside these examples.
+- Numeric input must be entered in the requested format.
 
 ## Algorithm
 
@@ -28,9 +25,7 @@ Analyse a matrix of student marks across subjects, calculate row-wise and column
 
 ## Flowchart
 
-![Flowchart for Student Marks Matrix Analysis](flowchart.png)
-
-The chart is a high-level view; validation and repeated processing are detailed in the algorithm and pseudocode.
+![Flowchart](flowchart.png)
 
 ## Pseudocode
 
@@ -45,39 +40,70 @@ FOR each subject: calculate average
 
 ## Python source code
 
-See [solution.py](solution.py). Run from this folder with `python solution.py` and enter the requested values.
+[solution.py](solution.py)
 
-## Test cases and output screenshots
+## Test cases
 
-### Test 1: Tied students and low subject
+1. **Tied students and low subject**
 
-Input, one value per line:
-```text
+   Input (one value per line):
+
+   ```text
 2
 2
 80
 20
 70
 30
-```
-Expected checks: `S1 total: 100.00 average: 50.00`; `Top performer: S1`; `Top performer: S2`; `Subject 2 average: 25.00 LOW`.
+   ```
 
-Actual output: [text](output-1.txt) | [output image](output-1.png).
+   Expected: `S1 total: 100.00 average: 50.00`; `Top performer: S1`; `Top performer: S2`; `Subject 2 average: 25.00 LOW`.
 
-### Test 2: Invalid mark
+2. **Invalid mark**
 
-Input, one value per line:
-```text
+   Input (one value per line):
+
+   ```text
 1
 1
 101
-```
-Expected checks: `Invalid mark: use 0 to 100`.
+   ```
 
-Actual output: [text](output-2.txt) | [output image](output-2.png).
+   Expected: `Invalid mark: use 0 to 100`.
 
-The output images are rendered from the actual captured program runs; inputs are shown separately because piped input is not echoed by the program.
+3. **Non-finite mark**
+
+   Input (one value per line):
+
+   ```text
+1
+1
+nan
+   ```
+
+   Expected: `Invalid mark: use 0 to 100`.
+
+4. **Average at threshold**
+
+   Input (one value per line):
+
+   ```text
+1
+1
+40
+   ```
+
+   Expected: `Subject 1 average: 40.00 OK`.
+
+## Output screenshots
+
+- Test 1: [output image](output-1.png) | [output text](output-1.txt)
+- Test 2: [output image](output-2.png) | [output text](output-2.txt)
+- Test 3: [output image](output-3.png) | [output text](output-3.txt)
+- Test 4: [output image](output-4.png) | [output text](output-4.txt)
+
+The images are made from actual captured program output; input is shown separately.
 
 ## Conclusion
 
-This program demonstrates student marks matrix analysis using the stated rules. The tests cover the main scenario and at least one additional or boundary condition. Different institutional rules can be substituted if required.
+The program solves this case using the rules and conditions stated above.

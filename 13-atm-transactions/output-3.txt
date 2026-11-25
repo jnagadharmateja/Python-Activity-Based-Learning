@@ -1,0 +1,7 @@
+Number of transactions: Type (D/W): Amount: Rejected: amount must be positive and finite
+Type (D/W): Amount: Rejected: amount must be positive and finite
+Type (D/W): Amount: Rejected: use at most two decimal places
+Deposits: Rs 0.00
+Withdrawals: Rs 0.00
+Rejected: 3
+Balance: Rs 1000.00

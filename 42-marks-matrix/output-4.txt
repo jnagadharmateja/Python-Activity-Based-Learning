@@ -1,0 +1,3 @@
+Number of students: Number of subjects: S1 subject 1: S1 total: 40.00 average: 40.00
+Top performer: S1
+Subject 1 average: 40.00 OK

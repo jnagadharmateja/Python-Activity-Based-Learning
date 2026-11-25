@@ -1,8 +1,5 @@
 # Case 27: Advanced Numeric Pattern Generator
 
-**Student:** J NAGA DHARMA TEJA  
-**Roll number:** 26000505
-
 ## Problem statement
 
 Produce a symmetric numerical pattern for a user-specified dimension, validating invalid dimensions and aligning the output.
@@ -12,11 +9,11 @@ Produce a symmetric numerical pattern for a user-specified dimension, validating
 - Use nested loops to make a symmetric numeric diamond.
 - Reject dimensions outside the chosen range.
 
-## Assumptions and rules
+## Assumptions
 
 - Dimension is an integer from 1 to 9 and represents the largest number in the middle row.
 - Each row ascends to its row number and descends to 1; leading spaces align the diamond.
-- Numeric prompts expect numeric input in the requested format; non-numeric input is outside these examples.
+- Numeric input must be entered in the requested format.
 
 ## Algorithm
 
@@ -26,9 +23,7 @@ Produce a symmetric numerical pattern for a user-specified dimension, validating
 
 ## Flowchart
 
-![Flowchart for Advanced Numeric Pattern Generator](flowchart.png)
-
-The chart is a high-level view; validation and repeated processing are detailed in the algorithm and pseudocode.
+![Flowchart](flowchart.png)
 
 ## Pseudocode
 
@@ -46,32 +41,59 @@ ELSE
 
 ## Python source code
 
-See [solution.py](solution.py). Run from this folder with `python solution.py` and enter the requested values.
+[solution.py](solution.py)
 
-## Test cases and output screenshots
+## Test cases
 
-### Test 1: Diamond of size 3
+1. **Diamond of size 3**
 
-Input, one value per line:
-```text
+   Input (one value per line):
+
+   ```text
 3
-```
-Expected checks: `    1 /   1 2 1 / 1 2 3 2 1 /   1 2 1 /     1`.
+   ```
 
-Actual output: [text](output-1.txt) | [output image](output-1.png).
+   Expected: `    1 /   1 2 1 / 1 2 3 2 1 /   1 2 1 /     1`.
 
-### Test 2: Invalid dimension
+2. **Invalid dimension**
 
-Input, one value per line:
-```text
+   Input (one value per line):
+
+   ```text
 0
-```
-Expected checks: `Invalid dimension`.
+   ```
 
-Actual output: [text](output-2.txt) | [output image](output-2.png).
+   Expected: `Invalid dimension`.
 
-The output images are rendered from the actual captured program runs; inputs are shown separately because piped input is not echoed by the program.
+3. **Minimum dimension**
+
+   Input (one value per line):
+
+   ```text
+1
+   ```
+
+   Expected: `Dimension (1-9): 1 / `.
+
+4. **Dimension too large**
+
+   Input (one value per line):
+
+   ```text
+10
+   ```
+
+   Expected: `Invalid dimension`.
+
+## Output screenshots
+
+- Test 1: [output image](output-1.png) | [output text](output-1.txt)
+- Test 2: [output image](output-2.png) | [output text](output-2.txt)
+- Test 3: [output image](output-3.png) | [output text](output-3.txt)
+- Test 4: [output image](output-4.png) | [output text](output-4.txt)
+
+The images are made from actual captured program output; input is shown separately.
 
 ## Conclusion
 
-This program demonstrates advanced numeric pattern generator using the stated rules. The tests cover the main scenario and at least one additional or boundary condition. Different institutional rules can be substituted if required.
+The program solves this case using the rules and conditions stated above.

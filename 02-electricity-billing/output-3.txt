@@ -1,0 +1,3 @@
+Number of months: Units for month 1: Month 1 bill: Rs 60.00
+Units for month 2: Month 2 bill: Rs 75.00
+No unusual increase

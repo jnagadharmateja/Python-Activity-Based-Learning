@@ -23,5 +23,12 @@
     "expected": [
       "Invalid input values"
     ]
+  },
+  {
+    "name": "Non-finite attendance",
+    "input": "nan\nY\n20\nY\n",
+    "expected": [
+      "Invalid input values"
+    ]
   }
 ]

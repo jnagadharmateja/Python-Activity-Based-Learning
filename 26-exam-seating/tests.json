@@ -14,5 +14,14 @@
     "expected": [
       "Invalid dimensions"
     ]
+  },
+  {
+    "name": "Smallest room",
+    "input": "1\n1\n1\n",
+    "expected": [
+      "R1C1:RES",
+      "Assigned: 0",
+      "Unseated: 1"
+    ]
   }
 ]

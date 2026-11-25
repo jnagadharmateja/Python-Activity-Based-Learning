@@ -1,0 +1,5 @@
+Number of transactions: Type (D/W): Amount: Withdrawal accepted
+Deposits: Rs 0.00
+Withdrawals: Rs 1000.00
+Rejected: 0
+Balance: Rs 0.00

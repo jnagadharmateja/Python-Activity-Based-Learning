@@ -22,5 +22,13 @@
       "Invalid registration",
       "Affected students: S3"
     ]
+  },
+  {
+    "name": "Empty student ID",
+    "input": "1\n\nPY\n",
+    "expected": [
+      "Invalid registration",
+      "No identifiable affected student"
+    ]
   }
 ]

@@ -15,5 +15,23 @@
     "expected": [
       "Units cannot be negative"
     ]
+  },
+  {
+    "name": "Increase at exactly 25 percent",
+    "input": "2\n10\n15\n",
+    "expected": [
+      "Month 1 bill: Rs 60.00",
+      "Month 2 bill: Rs 75.00",
+      "No unusual increase"
+    ]
+  },
+  {
+    "name": "Surcharge boundary",
+    "input": "2\n300\n301\n",
+    "expected": [
+      "Month 1 bill: Rs 1550.00",
+      "Month 2 bill: Rs 1707.70",
+      "No unusual increase"
+    ]
   }
 ]

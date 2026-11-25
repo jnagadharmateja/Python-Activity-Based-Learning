@@ -17,5 +17,13 @@
       "Three identical",
       "Prohibited substring"
     ]
+  },
+  {
+    "name": "Prohibited admin substring",
+    "input": "Admin12!x\n",
+    "expected": [
+      "Invalid password",
+      "Prohibited substring: admin"
+    ]
   }
 ]

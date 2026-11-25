@@ -7,6 +7,8 @@ while i < len(text):
     while i < len(text) and text[i] == char:
         count += 1
         i += 1
+    if char in "0123456789" or char == "\\":
+        encoded += "\\"
     encoded += char + str(count)
 print("Encoded:", encoded)
 print("Original length:", len(text))

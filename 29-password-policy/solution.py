@@ -29,6 +29,8 @@ for i in range(len(password) - 2):
         break
 if "password" in password.lower():
     errors.append("Prohibited substring: password")
+if "admin" in password.lower():
+    errors.append("Prohibited substring: admin")
 if len(errors) == 0:
     print("Valid password")
 else:

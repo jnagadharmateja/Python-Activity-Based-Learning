@@ -9,16 +9,19 @@ else:
     for i in range(count):
         kind = input("Type (D/W): ").strip().upper()
         amount = float(input("Amount: "))
-        if amount <= 0:
-            print("Rejected: amount must be positive")
+        if amount - amount != 0 or amount <= 0:
+            print("Rejected: amount must be positive and finite")
+            rejected += 1
+        elif amount != round(amount, 2):
+            print("Rejected: use at most two decimal places")
             rejected += 1
         elif kind == "D":
-            balance += amount
-            deposits += amount
+            balance = round(balance + amount, 2)
+            deposits = round(deposits + amount, 2)
             print("Deposit accepted")
         elif kind == "W" and amount <= 5000 and amount <= balance:
-            balance -= amount
-            withdrawals += amount
+            balance = round(balance - amount, 2)
+            withdrawals = round(withdrawals + amount, 2)
             print("Withdrawal accepted")
         else:
             print("Rejected: type, limit or balance")

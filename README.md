@@ -4,7 +4,7 @@
 **Roll number:** 26000505  
 **Section:** 2
 
-This repository contains ten selected case studies from the activity sheet. Each folder has a problem statement, objectives, assumptions, algorithm, flowchart, pseudocode, Python source, test cases, output images, and conclusion. The PDF does not specify many numerical rules, so the assumptions in each folder state the rules used here.
+[Complete PDF](Python-Activity-Based-Learning.pdf)
 
 ## Case studies
 
@@ -19,13 +19,4 @@ This repository contains ten selected case studies from the activity sheet. Each
 9. [Case 42: Student Marks Matrix Analysis](42-marks-matrix/README.md)
 10. [Case 64: Tuple-Based Course Registration Validation](64-course-registration/README.md)
 
-## How to run
-
-Use Python 3. No third-party packages are needed for the solutions. For example:
-
-```bash
-cd 02-electricity-billing
-python solution.py
-```
-
-Enter the values requested in the terminal. Run `python verify_tests.py` from the repository root to repeat the automated checks (the test runner uses Python's standard library). The test examples and corresponding output images are in the same folder as each solution. Output images are rendered from actual program runs, rather than screenshots taken in an interactive terminal; input values are displayed separately. Numeric inputs should be entered in the requested form. These are classroom simulations, not production billing or banking systems.
+Run a program with Python 3: `python path/to/solution.py`. To check all the tests, run `python verify_tests.py`.
