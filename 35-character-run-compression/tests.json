@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Repeated characters",
+    "input": "AAAABBBCC\n",
+    "expected": [
+      "Encoded: A4B3C2",
+      "Original length: 9",
+      "Encoded length: 6",
+      "Compression is beneficial"
+    ]
+  },
+  {
+    "name": "Non-repeating characters",
+    "input": "ABC\n",
+    "expected": [
+      "Encoded: A1B1C1",
+      "Original length: 3",
+      "Encoded length: 6",
+      "Compression is not beneficial"
+    ]
+  },
+  {
+    "name": "Empty text",
+    "input": "\n",
+    "expected": [
+      "Original length: 0",
+      "Encoded length: 0",
+      "Compression is not beneficial"
+    ]
+  }
+]

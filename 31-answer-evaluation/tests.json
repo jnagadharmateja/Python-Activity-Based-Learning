@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Mixed answers and invalid record",
+    "input": "ABCD\n2\nRavi\nAB-D\nAnu\nAXCD\n",
+    "expected": [
+      "Ravi Correct: 3 Incorrect: 0 Unanswered: 1 Score: 12",
+      "Invalid response for Anu"
+    ]
+  },
+  {
+    "name": "Negative marks",
+    "input": "AA\n1\nKiran\nBB\n",
+    "expected": [
+      "Correct: 0 Incorrect: 2 Unanswered: 0 Score: -2"
+    ]
+  }
+]

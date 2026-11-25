@@ -1,0 +1,4 @@
+Rows (1-5): Columns (1-6): Number of students: R1C1:RES  R1C2:X  R1C3:S01
+R2C1:X  R2C2:S02  R2C3:X
+Assigned: 2
+Unseated: 2

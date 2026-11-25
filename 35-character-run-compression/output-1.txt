@@ -1,0 +1,4 @@
+Text: Encoded: A4B3C2
+Original length: 9
+Encoded length: 6
+Compression is beneficial

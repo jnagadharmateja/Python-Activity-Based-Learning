@@ -1,0 +1,4 @@
+Text: Encoded: 
+Original length: 0
+Encoded length: 0
+Compression is not beneficial

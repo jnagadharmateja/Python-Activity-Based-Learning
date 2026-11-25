@@ -1,0 +1,6 @@
+Number of students: Number of subjects: S1 subject 1: S1 subject 2: S2 subject 1: S2 subject 2: S1 total: 100.00 average: 50.00
+S2 total: 100.00 average: 50.00
+Top performer: S1
+Top performer: S2
+Subject 1 average: 75.00 OK
+Subject 2 average: 25.00 LOW

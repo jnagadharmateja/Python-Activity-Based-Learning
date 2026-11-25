@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Valid password",
+    "input": "Abc123!x\n",
+    "expected": [
+      "Valid password"
+    ]
+  },
+  {
+    "name": "Multiple failures",
+    "input": "passwordaaa\n",
+    "expected": [
+      "Invalid password",
+      "Uppercase letter required",
+      "Digit required",
+      "Special character",
+      "Three identical",
+      "Prohibited substring"
+    ]
+  }
+]

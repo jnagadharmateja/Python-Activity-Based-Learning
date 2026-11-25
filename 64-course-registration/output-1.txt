@@ -1,0 +1,3 @@
+Number of registrations: Student ID: Course code: Student ID: Course code: Student ID: Course code: Duplicate registration: ('S1', 'AI')
+Student ID: Course code: Forbidden combination for S1 : AI and ML
+Affected students: S1

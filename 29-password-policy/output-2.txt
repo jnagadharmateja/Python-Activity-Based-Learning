@@ -1,0 +1,6 @@
+Password to check: Invalid password:
+- Uppercase letter required
+- Digit required
+- Special character from !@#$% required
+- Three identical consecutive characters not allowed
+- Prohibited substring: password

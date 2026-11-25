@@ -1,0 +1,4 @@
+Text: Encoded: A1B1C1
+Original length: 3
+Encoded length: 6
+Compression is not beneficial

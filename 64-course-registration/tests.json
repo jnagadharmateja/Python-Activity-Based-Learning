@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Duplicate and forbidden combination",
+    "input": "4\ns1\nAI\ns1\nML\ns1\nAI\ns2\nPY\n",
+    "expected": [
+      "Duplicate registration",
+      "Forbidden combination for S1",
+      "Affected students: S1"
+    ]
+  },
+  {
+    "name": "Valid registrations",
+    "input": "2\ns1\nPY\ns2\nML\n",
+    "expected": [
+      "No registration issues"
+    ]
+  },
+  {
+    "name": "Invalid course",
+    "input": "1\ns3\nXX\n",
+    "expected": [
+      "Invalid registration",
+      "Affected students: S3"
+    ]
+  }
+]

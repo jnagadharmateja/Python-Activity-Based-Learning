@@ -1,0 +1,27 @@
+[
+  {
+    "name": "All conditions met at boundary",
+    "input": "75\nY\n16\nY\n",
+    "expected": [
+      "Eligible for final examination"
+    ]
+  },
+  {
+    "name": "All conditions fail",
+    "input": "74\nN\n15\nN\n",
+    "expected": [
+      "Not eligible",
+      "Attendance below",
+      "Laboratory not completed",
+      "Internal marks below",
+      "Fees not cleared"
+    ]
+  },
+  {
+    "name": "Invalid range",
+    "input": "101\nY\n20\nY\n",
+    "expected": [
+      "Invalid input values"
+    ]
+  }
+]

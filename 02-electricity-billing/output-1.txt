@@ -1,0 +1,5 @@
+Number of months: Units for month 1: Month 1 bill: Rs 330.00
+Units for month 2: Month 2 bill: Rs 850.00
+Unusual increase from previous month
+Units for month 3: Month 3 bill: Rs 1707.70
+Unusual increase from previous month

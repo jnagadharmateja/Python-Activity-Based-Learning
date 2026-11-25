@@ -1,0 +1,18 @@
+[
+  {
+    "name": "More students than available seats",
+    "input": "2\n3\n4\n",
+    "expected": [
+      "R1C1:RES  R1C2:X  R1C3:S01",
+      "R2C1:X  R2C2:S02  R2C3:X",
+      "Unseated: 2"
+    ]
+  },
+  {
+    "name": "Invalid room size",
+    "input": "6\n2\n3\n",
+    "expected": [
+      "Invalid dimensions"
+    ]
+  }
+]

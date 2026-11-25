@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Valid and rejected transactions",
+    "input": "3\nD\n500\nW\n1200\nW\n400\n",
+    "expected": [
+      "Deposits: Rs 500.00",
+      "Withdrawals: Rs 1200.00",
+      "Rejected: 1",
+      "Balance: Rs 300.00"
+    ]
+  },
+  {
+    "name": "Limit and invalid amount",
+    "input": "2\nW\n6000\nD\n0\n",
+    "expected": [
+      "Rejected: 2",
+      "Balance: Rs 1000.00"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+Attendance percentage: Lab completed (Y/N): Internal marks out of 40: Fees cleared (Y/N): Not eligible:
+- Attendance below 75 percent
+- Laboratory not completed
+- Internal marks below 16
+- Fees not cleared

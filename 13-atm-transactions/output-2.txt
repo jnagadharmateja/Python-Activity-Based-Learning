@@ -1,0 +1,6 @@
+Number of transactions: Type (D/W): Amount: Rejected: type, limit or balance
+Type (D/W): Amount: Rejected: amount must be positive
+Deposits: Rs 0.00
+Withdrawals: Rs 0.00
+Rejected: 2
+Balance: Rs 1000.00

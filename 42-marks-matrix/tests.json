@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Tied students and low subject",
+    "input": "2\n2\n80\n20\n70\n30\n",
+    "expected": [
+      "S1 total: 100.00 average: 50.00",
+      "Top performer: S1",
+      "Top performer: S2",
+      "Subject 2 average: 25.00 LOW"
+    ]
+  },
+  {
+    "name": "Invalid mark",
+    "input": "1\n1\n101\n",
+    "expected": [
+      "Invalid mark: use 0 to 100"
+    ]
+  }
+]

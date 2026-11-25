@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Slabs, rebate and increase",
+    "input": "3\n100\n200\n301\n",
+    "expected": [
+      "Month 1 bill: Rs 330.00",
+      "Month 2 bill: Rs 850.00",
+      "Month 3 bill: Rs 1707.70",
+      "Unusual increase"
+    ]
+  },
+  {
+    "name": "Invalid units",
+    "input": "1\n-2\n",
+    "expected": [
+      "Units cannot be negative"
+    ]
+  }
+]
